@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap");
+
+body {
+  background-color: #ddb8a6;
+  font-family: "Frank Ruhl Libre", serif;
+  color: #893f04;
+  font-size: 22px;
+}
+
+.container {
+  color: #7b8760;
+  text-align: right;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.body-content {
+  text-align: center;
+  margin: 15%;
+}
+
+.aboutme {
+  color: #893f04;
+  text-align: left;
+  margin: 6%;
+}
+
+.blog {
+  color: #893f04;
+  text-align: left;
+  margin: 6%;
+}
+
+.learningplan {
+  text-align: left;
+  margin: 6%;
+  color: #893f04;
+}
+
+.social-link {
+  display: flex;
+  align-items: stretch;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+a {
+  text-decoration-style: solid;
+  color: #c67f43;
+  word-spacing: 20px;
+}
+
+#image {
+  text-align: center;
+}
