@@ -67,3 +67,8 @@ a {
 #image {
   text-align: center;
 }
+
+.aligncenter {
+  text-align: center;
+  margin: 1%;
+}
