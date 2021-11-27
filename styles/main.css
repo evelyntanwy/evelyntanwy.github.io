@@ -59,9 +59,10 @@ p {
 }
 
 a {
-  text-decoration-style: solid;
-  color: #c67f43;
-  word-spacing: 20px;
+  background-color: #7b876d;
+  color: white;
+  font-size: 16px;
+  border: none;
 }
 
 #image {
@@ -76,4 +77,40 @@ a {
 .fab {
   color: aquamarine;
   text-align: center;
+}
+
+.dropbtn {
+  background-color: #7b876d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ddb8a6;
+  box-shadow: #989e8b;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #white;
+  padding: 12px 16px;
+  text-decoration: solid;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: table;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #c67f43;
 }
