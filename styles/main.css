@@ -45,6 +45,13 @@ body {
   margin-bottom: auto;
 }
 
+.bloglink {
+  background-color: #ddb8a6;
+  font-family: "Frank Ruhl Libre", serif;
+  color: #893f04;
+  font-size: 16px;
+}
+
 h2 {
   font-size: 18px;
 }
