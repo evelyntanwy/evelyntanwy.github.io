@@ -123,7 +123,7 @@ a {
 }
 
 /* mobile portait */
-@media (max-width: 320px) {
+@media (max-width: 320px) and (orientation: portrait) {
   h2 {
     font-size: 19px;
   }
@@ -139,7 +139,7 @@ a {
 }
 
 /* tablet portrait */
-@media (max-width: 768px) {
+@media (max-width: 768px) and (orientation: portrait) {
   h2 {
     font-size: 20px;
   }
