@@ -108,7 +108,7 @@ a {
 }
 
 .dropdown-content a {
-  color: #white;
+  color: white;
   padding: 12px 16px;
   text-decoration: solid;
   display: block;
@@ -120,4 +120,52 @@ a {
 
 .dropdown:hover .dropbtn {
   background-color: #c67f43;
+}
+
+/* mobile portait */
+@media (max-width: 320px) {
+  h2 {
+    font-size: 19px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p a {
+    font-size: 17px;
+    text-align: justify;
+  }
+}
+
+/* tablet portrait */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 19px;
+  }
+
+  p a {
+    font-size: 18px;
+    text-align: justify;
+  }
+}
+
+/* desktop / laptop */
+@media (max-width: 1200px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  p a {
+    font-size: 19px;
+    text-align: justify;
+  }
 }
