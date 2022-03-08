@@ -122,6 +122,29 @@ a {
   background-color: #c67f43;
 }
 
+@keyframes swiftInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.intro {
+  text-align: left;
+  padding: 3.5em 3.5em;
+}
+
+.intro__text {
+  font-size: 3em;
+  line-height: 0.85;
+  font-weight: 700;
+  color: #414e49;
+  padding-top: 1.2em;
+  animation: 1s ease-out 0s 1 swiftInFromLeft;
+}
+
 /* mobile portait */
 @media (max-width: 320px) and (orientation: portrait) {
   h2 {
