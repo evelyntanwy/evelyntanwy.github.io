@@ -2,7 +2,8 @@
 
 body {
   background-color: #ddb8a6;
-  font-family: "Frank Ruhl Libre", serif;
+  /* font-family: "Frank Ruhl Libre", serif; */
+  font-family: "Montserrat", sans-serif;
   color: #893f04;
   font-size: 22px;
 }
@@ -60,12 +61,12 @@ h3 {
   font-size: 17px;
 }
 
-p {
+p li {
   font-size: 16px;
   text-align: justify;
 }
 
-a {
+a li {
   background-color: #7b876d;
   color: white;
   font-size: 16px;
