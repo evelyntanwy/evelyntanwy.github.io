@@ -25,13 +25,13 @@ body {
 }
 
 .aboutme {
-  color: #414e49;
+  color: #945661;
   text-align: left;
   margin: 6%;
 }
 
 .blog {
-  color: #414e49;
+  color: #945661;
   text-align: left;
   margin: 6%;
 }
@@ -39,7 +39,7 @@ body {
 .learningplan {
   text-align: left;
   margin: 6%;
-  color: #414e49;
+  color: #945661;
 }
 
 .social-link {
@@ -100,6 +100,7 @@ button {
 }
 
 .nav {
+  color: #893f04;
   padding-top: 2em;
 }
 
@@ -110,6 +111,7 @@ button {
 }
 
 .nav__item {
+  color: #893f04;
   list-style-type: none;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -136,7 +138,7 @@ button {
   border: none;
   text-decoration: none;
 }
-
+/* ---------------------------------- */
 @keyframes swiftInFromLeft {
   0% {
     transform: translateX(-100%);
@@ -159,6 +161,10 @@ button {
   padding-top: 1.2em;
   animation: 2s ease-out 0s 1 swiftInFromLeft;
 }
+
+
+
+
 
 .dropbtn {
   background-color: #7b876d;
