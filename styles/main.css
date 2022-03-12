@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap");
 
 body {
-  background-color: #ddb8a6;
+  background-color: #F0F1F0;
   /* font-family: "Frank Ruhl Libre", serif; */
   font-family: "Montserrat", sans-serif;
-  color: #893f04;
-  font-size: 22px;
+  color: #945661;
+  font-size: 25px;
+  text-decoration: none;
 }
 
+.navbar {
+  text-decoration: none;
+}
 .container {
   color: #7b8760;
   text-align: right;
@@ -21,13 +25,13 @@ body {
 }
 
 .aboutme {
-  color: #893f04;
+  color: #414e49;
   text-align: left;
   margin: 6%;
 }
 
 .blog {
-  color: #893f04;
+  color: #414e49;
   text-align: left;
   margin: 6%;
 }
@@ -35,7 +39,7 @@ body {
 .learningplan {
   text-align: left;
   margin: 6%;
-  color: #893f04;
+  color: #414e49;
 }
 
 .social-link {
@@ -53,24 +57,32 @@ body {
   font-size: 16px;
 }
 
+h1 {
+  font-size: 45px;
+}
 h2 {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 h3 {
-  font-size: 17px;
+  font-size: 20px;
 }
 
 p li {
-  font-size: 16px;
+  font-size: 18px;
   text-align: justify;
 }
 
 a li {
   background-color: #7b876d;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   border: none;
+  text-decoration: none;
+}
+
+button {
+  text-decoration: none;
 }
 
 #image {
@@ -87,12 +99,74 @@ a li {
   text-align: center;
 }
 
+.nav {
+  padding-top: 2em;
+}
+
+.nav__list {
+  display: flex;
+  float: right;
+  padding-right: 2em;
+}
+
+.nav__item {
+  list-style-type: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 1em;
+}
+
+.nav__link {
+  text-decoration: none;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: #513e47;
+  border-bottom: 2px solid #513e47;
+}
+
+.nav__dropdown {
+  background-color: #7b876d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+}
+
+@keyframes swiftInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.intro {
+  text-align: left;
+  padding: 3.5em 3.5em;
+}
+
+.intro__text {
+  font-size: 3em;
+  line-height: 0.85;
+  font-weight: 700;
+  color: #414e49;
+  padding-top: 1.2em;
+  animation: 2s ease-out 0s 1 swiftInFromLeft;
+}
+
 .dropbtn {
   background-color: #7b876d;
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
+  text-decoration: none;
 }
 
 .dropdown {
@@ -123,28 +197,32 @@ a li {
   background-color: #c67f43;
 }
 
-@keyframes swiftInFromLeft {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
+a.button1 {
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #414e49;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-weight:300;
+  color:#414e49;
+  text-align:center;
+  transition: all 0.2s;
 }
 
-.intro {
-  text-align: left;
-  padding: 3.5em 3.5em;
-}
-
-.intro__text {
-  font-size: 3em;
-  line-height: 0.85;
-  font-weight: 700;
+a.button1:hover {
   color: #414e49;
-  padding-top: 1.2em;
-  animation: 1s ease-out 0s 1 swiftInFromLeft;
+  background-color: #E7CAB5;
 }
+
+@media all and (max-width:30em){
+   a.button1{
+    display:block;
+    margin:0.4em auto;
+  }
+
+
 
 /* mobile portait */
 @media (max-width: 320px) and (orientation: portrait) {
