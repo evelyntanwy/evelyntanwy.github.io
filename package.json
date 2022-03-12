@@ -1,23 +1,5 @@
 {
-  "name": "evelyntanwy.github.io",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build:css": "tailwind build src/style.css -o public/style.css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/evelyntanwy/evelyntanwy.github.io.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/evelyntanwy/evelyntanwy.github.io/issues"
-  },
-  "homepage": "https://github.com/evelyntanwy/evelyntanwy.github.io#readme",
-  "dependencies": {
+  "devDependencies": {
     "tailwindcss": "^3.0.23"
   }
 }

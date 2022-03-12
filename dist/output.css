@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -42,7 +42,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Montserrat, sans-serif;
   /* 4 */
 }
 
@@ -423,6 +423,47 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+html {
+  font-family: Montserrat, sans-serif;
+  color: #414e49;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p a {
+  font-size: 20px;
+}
+
+@-webkit-keyframes swiftInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes swiftInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
 *, ::before, ::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
@@ -466,4 +507,42 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.bg-beige {
+  --tw-bg-opacity: 1;
+  background-color: rgb(221 184 166 / var(--tw-bg-opacity));
+}
+
+.bg-sage {
+  --tw-bg-opacity: 1;
+  background-color: rgb(65 78 73 / var(--tw-bg-opacity));
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.hover\:bg-sage:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(65 78 73 / var(--tw-bg-opacity));
 }

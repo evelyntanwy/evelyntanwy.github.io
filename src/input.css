@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Montserrat, sans-serif;
+    color: #414e49;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  p a {
+    font-size: 20px;
+  }
+
+  @keyframes swiftInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .intro {
+    text-align: left;
+    padding: 3.5em 3.5em;
+  }
+
+  .intro__text {
+    font-size: 3em;
+    line-height: 0.85;
+    font-weight: 700;
+    color: #414e49;
+    padding-top: 1.2em;
+    animation: 1s ease-out 0s 1 swiftInFromLeft;
+  }
+}
