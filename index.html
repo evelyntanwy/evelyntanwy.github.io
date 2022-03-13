@@ -6,35 +6,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/styles/main.css" rel="stylesheet" type="text/css" />
-    <link href="css/all.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="/images/letter-e.png" />
 
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
-    /> -->
     <body>
-      <header id="main-header">
-        <!-- <h1>Kia ora,</h1> -->
-      </header>
+      <header id="main-header"></header>
 
-      <nav id="navbar">
+      <!-- <nav id="navbar">
         <div class="container">
           <ul>
             <button class="dropbtn">
-              <a href="/blog/about-me.html">About Me</a>
+              <a href="">Home</a>
             </button>
-            <div class="dropdown">
-              <button class="dropbtn">Tech Blog ></button>
+            <button class="dropbtn">
+              <a href="/blog/about-me.html">About Me</a>
+            </button> -->
+            <nav>
+              <div class="nav">
+                <ul class="nav__list">
+                  <li class="nav__item">
+                    <a href="index.html" class="nav__link">Home</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="blog/about-me.html" class="nav__link">About me</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="projects/projects.html" class="nav__link">Projects</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="blog/index.html" class="nav__link">Blog Post</a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </nav>
+            </nav>
+
+            <!-- <div class="dropdown">
+              <button class="dropbtn">Blog Post</button>
               <div class="dropdown-content">
-                <a href="/blog/blog.html">Margin vs Padding</a>
+                <a href="/blog/margin.html">Margin vs Padding</a>
                 <a href="/blog/javascript-dom.html">Javascript</a>
                 <a href="/blog/problem-solving.html">Problem Solving</a>
-              </div>
-            </div>
-
-            <div class="dropdown">
-              <button class="dropbtn">Core Blog ></button>
-              <div class="dropdown-content">
                 <a href="/blog/identity-values.html">Identity Values</a>
                 <a href="/blog/learning-plan.html">Learning Plan</a>
                 <a href="/blog/emotional-intelligence.html"
@@ -43,51 +56,41 @@
                 <a href="/blog/neuroplasticity.html">Neuroplaticty</a>
                 <a href="/blog/foundations-reflection.html">Core Reflection</a>
               </div>
-            </div>
-
-            <!-- <button class="dropbtn">
-              <a href="/blog/identity-values.html">IdentityValues</a>
-            </button> -->
-            <!-- <button class="dropbtn">
-              <a href="/blog/learning-plan.html">LearningPlan</a>
-            </button> -->
-            <!-- <button class="dropbtn">
-              <a href="/blog/emotional-intelligence.html"
-                >EmotionalIntelligence</a
-              >
-            </button> -->
-            <!-- <button class="dropbtn"><a href="/blog/javascript-dom.html">Javascript</a></button> -->
-          </ul>
+            </div> -->
+          <!-- </ul> -->
         </div>
       </nav>
 
       <section class="showcase">
         <div class="body-content">
-          <h1>Kia Ora</h1>
+          <h1 class="intro__text">Kia Ora!</h1>
           <h2>My name is Evelyn.</h2>
           <h3>Thank you for dropping by :)</h3>
         </div>
       </section>
 
-      <section class="socials">
-        <!-- <a class="social-link" href="https://www.linkedin.com/in/evelyntanwy/">
-          <img
-            src="images/linkedinicon.png"
-            width="35"
-            height="35"
-            class="social-link"
-            alt=""
-          />
-        </a> -->
-        <a class="sociallink" href="https://github.com/evelyntanwy">
-          <img
-            src="/images/githubicon.png"
-            width="50"
-            height="50"
-            class="social-link"
-          />
-        </a>
-      </section>
+</div>
+      <footer>
+        <section class="socials">
+          <a class="sociallink" href="https://www.linkedin.com/in/evelyntanwy/" target="_blank">
+            <img
+              src="/images/linkedinicon.png"
+              width="50"
+              height="50"
+              class="social-link"
+              alt="evelyntanwy"
+            />
+          </a>
+          <a class="sociallink" href="https://github.com/evelyntanwy" target="_blank">
+            <img
+              src="/images/githubicon.png"
+              width="50"
+              height="50"
+              class="social-link"
+            />
+          </a>
+        </section>
+      </footer>
     </body>
   </head>
 </html>
