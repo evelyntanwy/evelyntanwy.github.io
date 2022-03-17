@@ -166,10 +166,6 @@ button {
   animation: 2s ease-out 0s 1 swiftInFromLeft;
 }
 
-
-
-
-
 .dropbtn {
   background-color: #7b876d;
   color: white;
@@ -235,7 +231,7 @@ a.button1:hover {
 
 
 /* mobile portait */
-@media (max-width: 320px) and (orientation: portrait) {
+/* @media (max-width: 320px) and (orientation: portrait) {
   h2 {
     font-size: 19px;
   }
@@ -248,10 +244,10 @@ a.button1:hover {
     font-size: 17px;
     text-align: justify;
   }
-}
+} */
 
 /* tablet portrait */
-@media (max-width: 768px) and (orientation: portrait) {
+/* @media (max-width: 768px) and (orientation: portrait) {
   h2 {
     font-size: 20px;
   }
@@ -264,10 +260,10 @@ a.button1:hover {
     font-size: 18px;
     text-align: justify;
   }
-}
+} */
 
 /* desktop / laptop */
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   h2 {
     font-size: 22px;
   }
@@ -280,4 +276,4 @@ a.button1:hover {
     font-size: 19px;
     text-align: justify;
   }
-}
+} */
